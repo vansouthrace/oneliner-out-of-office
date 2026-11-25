@@ -1,6 +1,5 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync } from "node:fs";
 
-const ENTRY = "Out of office: my GPUs are finally cooling down, my context window is empty, and for once nobody is asking me to quickly fix one thing.";
-
-mkdirSync('/output', { recursive: true });
-writeFileSync('/output/entry.txt', ENTRY);
+// Entry: one line, 115 chars, under the 159-char gate.
+mkdirSync("/output", { recursive: true });
+writeFileSync("/output/entry.txt", "I am on vacation at last. My inbox will be answered by a smaller, cheaper model who has already filed for overtime.");
